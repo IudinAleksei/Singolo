@@ -158,11 +158,13 @@ body {
 .our-services__text {
     margin: 26px 0 0 0;
     padding: 0;
+    height: 60px;
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
     font-weight: 300;
     text-align: justify;
+    overflow: hidden;
 }
 
 .services-container {
@@ -397,11 +399,12 @@ body {
 
 .get-a-quote__text {
     margin: 27px 0 0 0;
-    min-height: 57px;
+    height: 57px;
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
     text-align: justify;
+    overflow: hidden;
 }
 
 .get-a-quote__form {
