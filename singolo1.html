@@ -11,98 +11,86 @@
 <body>
     <div class="container">
         <header class="page-header">
-            <div class="header-container">
-                <div class="logo">
-                    <h1 class="logo-text">SINGOLO</h1>
-                    <span class="logo-star">*</span>
-                </div>
-                <nav class="header-navigation">
-                    <ul>
-                        <li class="nav_item first_nav_item"><a>home</a></li>
-                        <li class="nav_item"><a>services</a></li>
-                        <li class="nav_item"><a>portfolio</a></li>
-                        <li class="nav_item"><a>about</a></li>
-                        <li class="nav_item"><a>contact</a></li>
-                    </ul>
-                </nav>
+            <div class="logo">
+                <h1 class="logo__text">SINGOLO</h1>
+                <span class="logo__star">*</span>
             </div>
+            <nav class="header-navigation">
+                <a class="header-navigation__item header-navigation__item_selected">home</a>
+                <a class="header-navigation__item">services</a>
+                <a class="header-navigation__item">portfolio</a>
+                <a class="header-navigation__item">about</a>
+                <a class="header-navigation__item">contact</a>
+            </nav>
         </header>
 
         <section class="slider">
-            <div>
-                <a>
-                    <img src="assets/chev_left.svg">
-                </a>
-                <a>
-                    <img src="assets/chev_right.svg">
-                </a>
-                <img class="iphone" src="assets/iPhone Vertical.png">
-                <img class="iphone" src="assets/iPhone Horizontal.png">
-            </div>
+            <div class="slider__arrow_left slider__arrow"><img src="assets/chev_left.svg"></div>
+            <div class="slider__vertical-iphone"><img src="assets/iPhone Vertical.png"></div>
+            <div class="slider__horizontal-iphone"><img src="assets/iPhone Horizontal.png"></div>
+            <div class="slider__arrow_right slider__arrow"><img src="assets/chev_right.svg"></div>
         </section>
 
         <section class="our-services">
-            <h2>Our Services</h2>
-            <p> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <div class="column-container">
-                <div class="item-1">
-                    <div class="item">
-                        <div class="img-container"><img src="assets/pen.svg"></div>
-                        <div class="item_text">
-                            <h3>Custom Design</h3>
-                            <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-2">
-                    <div class="item">
-                        <div class="img-container"><img src="assets/bulb.svg"></div>
-                        <div class="item_text">
-                            <h3>Inovative Ideas</h3>
-                            <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-                        </div>
-                    </div>
+            <h2 class="our-services__title">Our Services</h2>
+            <p class="our-services__text"> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 
-                </div>
-                <div class="item-3">
-                    <div class="item">
-                        <div class="img-container"><img src="assets/heart.svg"></div>
-                        <div class="item_text">
-                            <h3>Love Is The Answer</h3>
-                            <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
-                        </div>
-                    </div>
+            <div class="services-container">
 
-                </div>
-                <div class="item-4">
-                    <div class="item">
-                        <div class="img-container"><img src="assets/phone.svg"></div>
-                        <div class="item_text">
-                            <h3>Responsive Layout</h3>
-                            <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
-                        </div>
+                <div class="services-container__item">
+                    <img class="services-container__item__image" src="assets/pen.svg">
+                    <div class="services-container__item__text">
+                        <h3 class="services-container__item__text__title">Custom Design</h3>
+                        <p class="services-container__item__text__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
                     </div>
+                </div>
 
-                </div>
-                <div class="item-5">
-                    <div class="item">
-                        <div class="img-container"><img src="assets/bubble.svg"></div>
-                        <div class="item_text">
-                            <h3>24 / 7 Support</h3>
-                            <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
-                        </div>
+                <div class="services-container__item">
+                    <img class="services-container__item__image" src="assets/bulb.svg">
+                    <div class="services-container__item__text">
+                        <h3 class="services-container__item__text__title">Inovative Ideas</h3>
+                        <p class="services-container__item__text__description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
                     </div>
+                </div>
 
-                </div>
-                <div class="item-6">
-                    <div class="item">
-                        <div class="img-container"><img src="assets/star.svg"></div>
-                        <div class="item_text">
-                            <h3>Feel Like A Star</h3>
-                            <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
-                        </div>
+
+
+                <div class="services-container__item">
+                    <img class="services-container__item__image" src="assets/heart.svg">
+                    <div class="services-container__item__text">
+                        <h3 class="services-container__item__text__title">Love Is The Answer</h3>
+                        <p class="services-container__item__text__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
                     </div>
                 </div>
+
+
+                <div class="services-container__item">
+                    <img class="services-container__item__image" src="assets/phone.svg">
+                    <div class="services-container__item__text">
+                        <h3 class="services-container__item__text__title">Responsive Layout</h3>
+                        <p class="services-container__item__text__description">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="services-container__item">
+                    <img class="services-container__item__image" src="assets/bubble.svg">
+                    <div class="services-container__item__text">
+                        <h3 class="services-container__item__text__title">24 / 7 Support</h3>
+                        <p class="services-container__item__text__description">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+                    </div>
+                </div>
+
+
+                <div class="services-container__item">
+                    <img class="services-container__item__image" src="assets/star.svg">
+                    <div class="services-container__item__text">
+                        <h3 class="services-container__item__text__title">Feel Like A Star</h3>
+                        <p class="services-container__item__text__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                    </div>
+                </div>
+
             </div>
         </section>
     </div>

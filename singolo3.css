@@ -5,6 +5,7 @@ body {
 
 .container {
     max-width: 1020px;
+    min-width: 640px;
     margin: 0 auto;
     padding: 0;
 }
@@ -30,7 +31,7 @@ body {
 
 .get-a-quote__text {
     margin: 27px 0 0 0;
-    height: 57px;
+    min-height: 57px;
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
@@ -39,8 +40,9 @@ body {
 
 .get-a-quote__form {
     float: left;
-    width: 619px;
-    margin: 47px 0 0 0;
+    max-width: 619px;
+    width: 66%;
+    margin: 44px 0 0 0;
 }
 
 .get-a-quote__form__text-input {
@@ -77,6 +79,7 @@ body {
     height: 38px;
     font-size: 12px;
     font-weight: 700;
+    color: #f0d8d9;
     background-color: #d6564f;
     border-radius: 5px;
     border-width: 0;
@@ -91,9 +94,12 @@ body {
 }
 
 .contact-information {
-    margin: 46px 0 0 0;
+    margin: 44px 0 0 0;
+    padding: 0;
+    display: inline-block;
     float: right;
-    width: 300px;
+    max-width: 300px;
+    width: 32%;
 }
 
 .contact-information__title {
@@ -107,34 +113,51 @@ body {
 }
 
 .contact-information__text {
-    margin: 10px 0 20px 0;
+    margin: 10px 0 24px 0;
     padding: 0;
-    width: 300px;
+    width: 100%;
     font-size: 12px;
-    line-height: 22px;
+    line-height: 21px;
     font-weight: 400;
     text-align: justify;
-}
-
-.contact-information__data {
-    margin: 0;
-    padding: 0;
+    letter-spacing: -0.03px;
 }
 
 .contact-information__icon {
+    margin: 0;
+    padding: 0;
     display: inline-block;
+    width: 20px;
+    height: 57px;
+    vertical-align: top;
 }
 
-.contact-information__link {
+.contact-information__icon__location {
+    margin: 0 0 0 3px;
+}
+
+.contact-information__icon__phone {
+    margin: 7px 0 0 1px;
+}
+
+.contact-information__icon__mail {
+    margin: 11px 0 0 0;
+}
+
+.contact-information__links {
+    display: inline-block;
     font-size: 12px;
-    line-height: 22px;
-    color: #f0d8d9;
     font-weight: 400;
+}
+
+.contact-information__links a {
+    line-height: 21px;
+    color: #f0d8d9;
     text-decoration: none;
 }
 
 .page-footer {
-    padding: 21px 40px 0px 40px;
+    padding: 21px 38px 0px 42px;
     height: 55px;
     background-color: #2d303a;
 }
@@ -147,7 +170,7 @@ body {
     line-height: 33px;
     font-weight: 400;
     text-align: left;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.4px;
 }
 
 .footer-social {
@@ -157,7 +180,7 @@ body {
 }
 
 .footer-social__icon {
-    margin: 0;
+    margin-left: 1px;
     padding: 0;
 }
 
