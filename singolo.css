@@ -65,6 +65,11 @@ body {
     font-weight: 700;
 }
 
+.header-navigation__item {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .header-navigation__item_selected {
     color: #f06c64;
 }
